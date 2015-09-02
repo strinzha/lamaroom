@@ -1,0 +1,251 @@
+ul, li {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #900;
+  color: #FFF;
+  font-family: "Museo Sans";
+  font-weight: 300;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  background-image: url(../../assets/img/overlay.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  line-height: 1.5; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+@font-face {
+  font-family: "Helvetica Neue Condensed";
+  src: url("../../assets/fonts/helveticaneuecondensedbold.eot");
+  src: url("../../assets/fonts/helveticaneuecondensedbold.eot#iefix") format("embedded-opentype"), url("../../assets/fonts/helveticaneuecondensedbold.woff") format("woff"), url("../../assets/fonts/helveticaneuecondensedbold.ttf") format("truetype"), url("../../assets/fonts/helveticaneuecondensedbold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url("../../assets/fonts/museosanscyrl0.eot");
+  src: url("../../assets/fonts/museosanscyrl0.eot#iefix") format("embedded-opentype"), url("../../assets/fonts/museosanscyrl0.woff") format("woff"), url("../../assets/fonts/museosanscyrl0.ttf") format("truetype"), url("../../assets/fonts/museosanscyrl0.svg") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url("../../assets/fonts/ofontrumuseo-sans-cyrl-300.eot");
+  src: url("../../assets/fonts/ofontrumuseo-sans-cyrl-300.eot#iefix") format("embedded-opentype"), url("../../assets/fonts/ofontrumuseo-sans-cyrl-300.woff") format("woff"), url("../../assets/fonts/ofontrumuseo-sans-cyrl-300.ttf") format("truetype"), url("../../assets/fonts/ofontrumuseo-sans-cyrl-300.svg") format("svg");
+  font-weight: 300;
+  font-style: italic; }
+
+.path-l {
+  -webkit-animation: draw 5.5s 0.5s forwards, fill 2.5s 2.2s forwards;
+  -o-animation: draw 5.5s 0.5s forwards, fill 2.5s 2.2s forwards;
+  animation: draw 5.5s 0.5s forwards, fill 2.5s 2.2s forwards; }
+
+.path-m {
+  -webkit-animation: draw 2.8s 0.5s forwards, fill 2.5s 2.2s forwards;
+  -o-animation: draw 2.8s 0.5s forwards, fill 2.5s 2.2s forwards;
+  animation: draw 2.8s 0.5s forwards, fill 2.5s 2.2s forwards; }
+
+.path-a {
+  -webkit-animation: draw 5s 0.5s forwards, fill 2.5s 2.2s forwards;
+  -o-animation: draw 5s 0.5s forwards, fill 2.5s 2.2s forwards;
+  animation: draw 5s 0.5s forwards, fill 2.5s 2.2s forwards; }
+
+.path-r {
+  -webkit-animation: draw 4.6s 0.5s forwards, fill 2.5s 2.2s forwards;
+  -o-animation: draw 4.6s 0.5s forwards, fill 2.5s 2.2s forwards;
+  animation: draw 4.6s 0.5s forwards, fill 2.5s 2.2s forwards; }
+
+.path-o {
+  -webkit-animation: draw 5.5s 0.5s forwards, fill 2.5s 2.2s forwards;
+  -o-animation: draw 5.5s 0.5s forwards, fill 2.5s 2.2s forwards;
+  animation: draw 5.5s 0.5s forwards, fill 2.5s 2.2s forwards; }
+
+@-webkit-keyframes draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-o-keyframes draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-webkit-keyframes fill {
+  0% {
+    fill: #900; }
+
+  100% {
+    fill: #fff; } }
+
+@-o-keyframes fill {
+  0% {
+    fill: #900; }
+
+  100% {
+    fill: #fff; } }
+
+@keyframes fill {
+  0% {
+    fill: #900; }
+
+  100% {
+    fill: #fff; } }
+
+@-webkit-keyframes tex {
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1; } }
+
+@-o-keyframes tex {
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1; } }
+
+@keyframes tex {
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1; } }
+
+.main-content {
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0);
+  opacity: 0;
+  -webkit-animation: tex 1s 3.3s ease forwards;
+  -o-animation: tex 1s 3.3s ease forwards;
+  animation: tex 1s 3.3s ease forwards; }
+
+.logo {
+  width: 690px;
+  height: 82px;
+  margin: 70px auto 0; }
+
+.subtitle {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Helvetica Neue Condensed";
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-size: 36px;
+  color: #000; }
+
+.title-insta {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 36px;
+  padding: 0 100px;
+  position: relative;
+  line-height: 1.2; }
+  .title-insta span {
+    color: black; }
+
+.title-social {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 36px;
+  padding: 0 100px;
+  position: relative;
+  line-height: 1.2; }
+
+.insta-photos:after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+.insta-photos__item {
+  float: left;
+  width: 20%; }
+  .insta-photos__item img {
+    max-width: 100%;
+    vertical-align: bottom; }
+
+.vkontakte, .instagram {
+  text-align: center;
+  line-height: 2; }
+  .vkontakte img, .instagram img {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    .vkontakte img:hover, .instagram img:hover {
+      -webkit-transform: translate3d(0, -10px, 0);
+      transform: translate3d(0, -10px, 0);
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+
+.social:after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+.title-contacts {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.2; }
+
+.contacts {
+  text-align: center;
+  margin-bottom: 50px; }
+  .contacts a {
+    color: #FFF;
+    text-decoration: none; }
+
+.helper {
+  height: 20px; }
+
+.developer {
+  text-align: center;
+  font-size: 12px; }
+  .developer a {
+    color: #FFF;
+    text-decoration: none; }
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto; }
+  .container:before {
+    content: " ";
+    display: table; }
+  .container:after {
+    content: " ";
+    display: table;
+    clear: both; }
+
+.col-6 {
+  width: 50%;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.col-12 {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; } }
+
+
+/*# sourceMappingURL=main.css.map */

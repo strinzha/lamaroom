@@ -1,0 +1,11 @@
+{
+  "name": "LamaRoom",
+  "version": "3.0.0",
+  "authors": [
+    "Boris Strinzha <strinzha.com>"
+  ],
+  "description": "LamaRoom Hookah Club",
+  "dependencies": {
+    "normalize.css": "~3.0.3"
+  }
+}

@@ -1,0 +1,29 @@
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+	&:before {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		content: " ";
+		display: table;
+		clear: both;
+	}	
+}
+.col-6 {
+	width: 50%;
+	float: left;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.col-12 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}

@@ -1,0 +1,56 @@
+$red: #900;
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: $red;
+	color: #FFF;
+	font-family: "Museo Sans";
+	font-weight: 300;
+	font-size: 18px;
+	-webkit-font-smoothing:antialiased;
+	background-image: url(../../assets/img/overlay.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	line-height: 1.5;
+}
+* {
+	box-sizing: border-box;
+	&:before {
+		box-sizing: border-box;
+	}
+	&:after {
+		box-sizing: border-box;
+	}
+}
+@font-face {
+	font-family: "Helvetica Neue Condensed";
+	src: url("../../assets/fonts/helveticaneuecondensedbold.eot");
+	src: url("../../assets/fonts/helveticaneuecondensedbold.eot#iefix") format("embedded-opentype"),
+	url("../../assets/fonts/helveticaneuecondensedbold.woff") format("woff"),
+	url("../../assets/fonts/helveticaneuecondensedbold.ttf") format("truetype"),
+	url("../../assets/fonts/helveticaneuecondensedbold.svg") format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Museo Sans";
+	src: url("../../assets/fonts/museosanscyrl0.eot");
+	src: url("../../assets/fonts/museosanscyrl0.eot#iefix") format("embedded-opentype"),
+	url("../../assets/fonts/museosanscyrl0.woff") format("woff"),
+	url("../../assets/fonts/museosanscyrl0.ttf") format("truetype"),
+	url("../../assets/fonts/museosanscyrl0.svg") format("svg");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Museo Sans";
+	src: url("../../assets/fonts/ofontrumuseo-sans-cyrl-300.eot");
+	src: url("../../assets/fonts/ofontrumuseo-sans-cyrl-300.eot#iefix") format("embedded-opentype"),
+	url("../../assets/fonts/ofontrumuseo-sans-cyrl-300.woff") format("woff"),
+	url("../../assets/fonts/ofontrumuseo-sans-cyrl-300.ttf") format("truetype"),
+	url("../../assets/fonts/ofontrumuseo-sans-cyrl-300.svg") format("svg");
+	font-weight: 300;
+	font-style: italic;
+}

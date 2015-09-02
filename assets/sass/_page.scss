@@ -1,0 +1,140 @@
+.path-l {
+  animation: draw 5.5s 0.5s forwards, fill 2.5s 2.2s forwards;         
+}
+.path-m {
+  animation: draw 2.8s 0.5s forwards, fill 2.5s 2.2s forwards;         
+}
+.path-a {
+  animation: draw 5s 0.5s forwards, fill 2.5s 2.2s forwards;         
+}
+.path-r {
+  animation: draw 4.6s 0.5s forwards, fill 2.5s 2.2s forwards;         
+}
+.path-o {
+  animation: draw 5.5s 0.5s forwards, fill 2.5s 2.2s forwards;         
+}
+@keyframes draw {
+    100% {
+    	stroke-dashoffset: 0;    
+  	}
+}
+@keyframes fill {
+    0% {
+        fill: $red;
+    }
+    100% {
+        fill: #fff;
+    }
+}
+@keyframes tex {   
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+.main-content {
+	transform: translate3d(0, 20px, 0);
+	opacity: 0;
+	animation: tex 1s 3.3s ease forwards;
+}
+.logo {
+	width: 690px;
+	height: 82px;
+	margin: 70px auto 0;	
+}
+.subtitle {
+	margin-top: 10px;
+	text-align: center;
+	font-family: "Helvetica Neue Condensed";
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	font-size: 36px;
+	color: #000;	
+}
+
+.title-insta {
+	margin-top: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 36px;
+	padding: 0 100px;
+	position: relative;
+	line-height: 1.2;	
+	span {
+		color: black;
+	}	
+}
+.title-social {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+	font-size: 36px;
+	padding: 0 100px;
+	position: relative;
+	line-height: 1.2;
+	
+}
+.insta-photos {	
+	&:after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+.insta-photos__item {
+	float: left;
+	width: 20%;
+	img {
+		max-width: 100%;
+		vertical-align: bottom;
+	}
+}
+.vkontakte {
+	text-align: center;
+	line-height: 2;	
+	img {		
+		transform: translate3d(0, 0, 0);
+		transition: all 0.5s ease;
+		&:hover {			
+			transform: translate3d(0, -10px, 0);
+			transition: all 0.5s ease;			
+		}
+	}	
+}
+.instagram {
+	@extend .vkontakte;
+}
+.social {
+	&:after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+.title-contacts {
+	margin-top: 60px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 36px;		
+	line-height: 1.2;
+}
+.contacts {
+	text-align: center;
+	margin-bottom: 50px;
+	a {
+		color: #FFF;
+		text-decoration: none;
+	}
+}
+.helper {
+	height: 20px;	
+}
+.developer {
+	text-align: center;
+	font-size: 12px;
+	a {
+		color: #FFF;
+		text-decoration: none;
+	}
+}
